@@ -12,7 +12,7 @@ The following needs to be added into the application .mk file (eg. ble_hello_sen
 
 #ENABLE_APP_POWERSAVE macro is also enabled for BCM94343_AVN platform (Avnet BCM4343W IoT Starter Kit)
 
-ifeq ($(PLATFORM), BCM94343_AVN)
+ifeq ($(PLATFORM), BCM94343W_AVN)
 
 ENABLE_APP_POWERSAVE := 1
 
