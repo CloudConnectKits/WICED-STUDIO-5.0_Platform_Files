@@ -1,6 +1,6 @@
 # WICED-STUDIO-5.0_Platform_Files
 
-Download this BCM94343W_AVN.zip file to your ...\WICED-Studio-5.0\43xxx_Wi-Fi\platforms folder. 
+Download this BCM94343W_AVN.zip file to your **...\WICED-Studio-5.0\43xxx_Wi-Fi\platforms folder** 
 
 Unzip this file there to create the missing BCM94343W_AVN subfolder.
 
@@ -8,7 +8,8 @@ Note that these v5.0 platform files are not suitable for use with earlier versio
 
 # Note on BLE POWERSAVE !
 
-The following needs to be added into the application .mk file (eg. ble_hello_sensor.mk in WICED Studio 5.0) in order for the BLE PowerSave function to work correctly!!!
+The following **must** be added into the application **.mk** file in order for the BLE PowerSave function to work correctly!!! 
+(eg. **ble_hello_sensor.mk** in WICED Studio 5.0) 
 
 #ENABLE_APP_POWERSAVE macro is also enabled for BCM94343_AVN platform (Avnet BCM4343W IoT Starter Kit)
 
